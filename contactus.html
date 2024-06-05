@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>ContactUs Page</title>
+  <style>
+  #f
+  {
+   color:white;    
+  }
+  </style>
+</head>
+<body style="background-color:grey">
+  <h1><mark><em>Contact</em></mark> Us</h1>
+  <center>
+    <form>
+      <fieldset id="f">
+        <legend> Personal Details</legend>
+        <label for="Your Name" id="Your Name">Your Name:</label>
+        <input type="text" id="Your Name" placeholder="Enter Your Name">       
+        <br>
+        <p>
+        <label for="Phone Number">Phone Number</label>
+        <input type="tel" placeholder="phone number" required>
+        </p>
+        <p>
+        <label for="DOB"><abbr title="Date Of Birth">DOB:</abbr></label>
+        <input type="date" required>
+          </p>
+        <label for="State">State:</label>
+          <input type="text" name="State" list="State-list" placeholder="Enter your State"> 
+        <datalist id="State-list">
+          <option value="Uttar Ptadesh">
+          <option value="Madhya Pradesh">
+          <option value="Maharashtra"> 
+          <option value="Andhra Pradesh"> 
+        </datalist>
+            <p>
+            <label for="email" id="email">Email Adress:</label>
+            <input type="email" id="email">
+            </p>
+            <p>
+              <h5><mark>We will reply back in 24 hours</mark></h5>
+            </p>
+      </fieldset>
+          <br>
+   <input type="Button" value="Submit"> 
+   <input type="Button" value="Reset">            
+    </form>
+    <center>
+</body>
+</html>
